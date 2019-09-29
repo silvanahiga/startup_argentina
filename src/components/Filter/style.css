@@ -1,0 +1,21 @@
+.filter{
+    width: 80%;
+    display: flex;
+    align-items: center
+
+}
+
+
+.filter input{
+    background-color: grey;
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    border-radius:3px;
+    border-style: none;
+    color: white;
+    border-color: initial;
+    outline: none 0;
+   
+   
+}

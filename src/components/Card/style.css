@@ -1,0 +1,34 @@
+.cards{
+    border:1px solid black;
+    width: 478px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex
+    
+}
+
+.image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center   
+}
+
+.image img{
+    width: 150px;
+    height: 130px;
+}
+
+.wrap_info{
+    width: 65%;
+}
+
+.top{
+    width: 100%;
+}
+
+.down{
+    height: 50px;
+    width: 100%;   
+}

@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+
+
+
 }
 
 .App-logo {
@@ -30,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(246, 246, 246);
+}
+
+h3{
+  width: 15%;
+  color:#fff;
+}
+
+a{
+  color: #fff;
+  padding-top: 10px
+}
+.header{
+  width: 100%;
+  border: 1px solid black;
+  height: 60px;
+  display: flex;
+  background-color: #24292e
+  
+
+ 
+
+}
+.box{
+  display: flex;
+  width: 80%;
+  height: 700px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
 }
